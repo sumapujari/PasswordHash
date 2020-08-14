@@ -1,0 +1,3 @@
+time,type,step,message
+2020-08-13 20:12:58,Message,,"LoadTest started at Thu Aug 13 20:12:58 MDT 2020"
+2020-08-13 20:14:21,Message,,"LoadTest ended at Thu Aug 13 20:14:21 MDT 2020"

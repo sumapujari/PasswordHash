@@ -4,6 +4,7 @@
 3) SOAP UI
 4) GIT REPO
 # Prerequisites
+# Note: I have provided abstract introductory document with name TakeHomeAssignment_JumpCloud.docx
 # Step1: Download the .tpz files using the following
     https://s3.amazonaws.com/qa-broken-hashserve/broken-hashserve.tgz
 # Step2: Install GIT BASH using the following URL
@@ -70,4 +71,17 @@ To perform load test you need to use a test case suite http://127.0.0.1:8088 Tes
  Following steps should be performed to run a parallel test
  # Step1: Double click test suite http://127.0.0.1:8088 TestSuite_Parallel
  # Step2 Select parallel processing which is 4th option in the test runner
+
+# Load Test
+To perform dynamic load testing. I have used the groovy script to create POST, GET the key value and then retrieve the stats. To perform the load test use the project REST Password-Hash Load Test which contains a test suite http://127.0.0.1:8088 TestSuite_LoadTest.
+# Note I have provided reports of the load test in the folder Reports
+# Steps to run Load Test
+# Step1: Import the project with name REST-Password-Hash-soapui-project.xml from the folder using the following path
+    Open SOAP UI-> Go to File menu->click import-> Go to project folder download from GIT REPO-> Select -> REST-Password-Hash-soapui-project->click open
+# Step2 Double click LoadTest to open test runner
+# Step3 Set following parameters
+    Thread = 200
+    Strategy = Burst
+    Bust Duration = 7 sec
+    Limit = 100000 total runs
  
