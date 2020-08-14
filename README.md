@@ -66,7 +66,7 @@ To perform load test you need to use a test case suite http://127.0.0.1:8088 Tes
  Test Delay: 7
  Burst Duration:7
  Limit : 100000 select total runs
- # Paralle Tests
+ # Parallel Tests
  To perform a parallel test you need to use test case suite  http://127.0.0.1:8088 TestSuite_Parallel which consists of test case Hash-POST ShutDown_Parallel_TestCase. In this test case the steps corresponds to TC05.03 Test Case # in broken_hashserve_test_cases.xls document. The Test Case # TC05.03 has a child created in SOAP UI which is not present in the broken_hashserve_test_cases.xls document.
  Following steps should be performed to run a parallel test
  # Step1: Double click test suite http://127.0.0.1:8088 TestSuite_Parallel
