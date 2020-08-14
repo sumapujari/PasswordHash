@@ -83,5 +83,5 @@ To perform dynamic load testing. I have used the groovy script to create POST, G
     Thread = 200
     Strategy = Burst
     Bust Duration = 7 sec
-    Limit = 100000 total runs
+    Limit = 2000 total runs
  
